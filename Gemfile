@@ -62,3 +62,6 @@ end
 # Pagination
 gem 'will_paginate', '~> 3.1.1'
 gem 'bootstrap-will_paginate'
+
+# Form
+gem 'simple_form'
