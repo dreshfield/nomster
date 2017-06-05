@@ -15,6 +15,11 @@ h1, h2, h3, h4, h5, h6 {
   color: gray;
 }
 
+.form-group .help-block {
+  padding-left: 10px;
+  font-size: 14px;
+}
+
 .justify-content-center {
   margin: auto;
 }
@@ -25,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-inverse .navbar-brand {
-  color: #fc0;
+  color: #ffcc00;
   font-family: 'fjallaoneregular', sans-serif;
   font-size: 26px;
   letter-spacing: 0.4px;
@@ -35,8 +40,8 @@ h1, h2, h3, h4, h5, h6 {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
   -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
   -box-shadow: 1px 1px 2px 0 #d0d0d0;
-  background: #fff;
-  border: 1px solid #ccc;
+  background: #ffffff;
+  border: 1px solid #cccccc;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
   margin-top: 10px;
   margin-bottom: 15px;
