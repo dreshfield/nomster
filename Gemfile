@@ -77,3 +77,7 @@ gem 'geocoder'
 
 # App config
 gem 'figaro'
+
+# Image uploads
+gem 'carrierwave', '~> 1.0'
+gem "fog-aws"
