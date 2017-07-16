@@ -53,17 +53,18 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
   # Notification mailer
-  config.action_mailer.delivery_method = :smtp
+  # Set delivery_method to :smtp for use with commented code below 
+  config.action_mailer.delivery_method = :test
 
-  config.action_mailer.smtp_settings = {
-    address: "smtp.gmail.com",
-    port: 587,
-    domain: "example.com",
-    authentication: "plain",
-    enable_starttls_auto: true,
-    user_name: ENV['MAILER_ADDRESS'],
-    password: ENV['MAILER_PASSWORD']
-  }
+  # config.action_mailer.smtp_settings = {
+  #   address: "smtp.gmail.com",
+  #   port: 587,
+  #   domain: "example.com",
+  #   authentication: "plain",
+  #   enable_starttls_auto: true,
+  #   user_name: ENV['MAILER_ADDRESS'],
+  #   password: ENV['MAILER_PASSWORD']
+  # }
 
   # Devise changes
   config.action_mailer.default_url_options = { host: 'localhost:3030' }
